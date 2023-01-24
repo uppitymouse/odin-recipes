@@ -3,25 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/page-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap"
+      rel="stylesheet"
+    />
 
     <!--insert recipe name in title element-->
     <title>corned beef and potato hash</title>
   </head>
   <body>
     <!--insert recipe name in H1 element-->
-    <h1>corned beef and potato hash</h1>
+    <h1 class="title heading">corned beef and potato hash</h1>
 
     <!--image of recipe, description in alt-->
-    <img src="../img/hash.jpg" alt="A delectible stew" />
+    <img id="img" src="../img/hash.jpg" alt="A delectible stew" />
 
     <!--insert description of recipe on paragraph element-->
-    <p>
+    <p id="desc">
       This recipe has been passed through my family, more of a stew than a hash.
       it is a perfect comfort food for those autumn nights.
     </p>
 
-    <h2>Ingredients</h2>
-    <ul>
+    <h2 class="sub heading">Ingredients</h2>
+    <ul style="list-style: none">
       <li>potatoes (diced into inch cubes)</li>
       <li>carrots (sliced)</li>
       <li>1 large onion (diced)</li>
@@ -32,8 +39,8 @@
       <li>salt and cracked black pepper</li>
     </ul>
 
-    <h2>Method</h2>
-    <ol>
+    <h2 class="sub heading">Method</h2>
+    <ol class="method">
       <li>
         in a large pan boil the potatoes, carrots, and onion until potatoes are
         soft but a fork still sticks in
@@ -51,6 +58,8 @@
       <li>serve with crusty bread and enjoy</li>
     </ol>
 
-    <a href="../index.html">Home</a>
+    <a href="../index.html">
+      <button id="home">Home</button>
+    </a>
   </body>
 </html>

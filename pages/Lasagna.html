@@ -3,25 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/page-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap"
+      rel="stylesheet"
+    />
 
     <!--insert recipe name in title element-->
     <title>Lasagna</title>
   </head>
   <body>
     <!--insert recipe name in H1 element-->
-    <h1>Lasagna</h1>
+    <h1 class="title heading">Lasagna</h1>
 
     <!--image of recipe, description in alt-->
-    <img src="../img/lasagna.jpg" alt="a cheesy family lasagna" />
+    <img id="img" src="../img/lasagna.jpg" alt="a cheesy family lasagna" />
 
     <!--insert description of recipe on paragraph element-->
-    <p>
+    <p id="desc">
       An absolute family classic. a quick and easy meal that will gather
       everyone around the table
     </p>
 
-    <h2>Ingredients</h2>
-    <ul>
+    <h2 class="sub heading">Ingredients</h2>
+    <ul style="list-style: none">
       <li>500g beef mince</li>
       <li>2 tins of chopped tomatoes</li>
       <li>1 large onion diced</li>
@@ -36,8 +43,8 @@
       <li>bistro salad</li>
     </ul>
 
-    <h2>Method</h2>
-    <ol>
+    <h2 class="sub heading">Method</h2>
+    <ol class="method">
       <li>pre-heat oven to 200 degreess celcius</li>
       <li>
         in a large pan brown the mince with a sprinkle of salt and the onions on
@@ -67,6 +74,8 @@
       <li>serve lasagna with garlic baguette and bistro salad and enjoy</li>
     </ol>
 
-    <a href="../index.html">Home</a>
+    <a href="../index.html">
+      <button id="home">Home</button>
+    </a>
   </body>
 </html>
