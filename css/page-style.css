@@ -1,0 +1,48 @@
+#img
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+  }
+
+body
+  {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+#desc
+  {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+.heading
+  {
+    font-family: 'Rouge Script', cursive;
+    color: black;
+    background-color: yellowgreen;
+    font-weight:100;
+  }
+
+.title
+  {
+    font-size: 48px;
+  }
+
+.sub
+  {
+    font-size: 36px;
+  }
+
+.method
+  {
+    text-align: left;
+  }
+  
+#home
+  {
+    font-size: 16px;
+  }

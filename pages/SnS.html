@@ -3,25 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/page-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap"
+      rel="stylesheet"
+    />
 
     <!--insert recipe name in title element-->
     <title>Sweet and sour</title>
   </head>
   <body>
     <!--insert recipe name in H1 element-->
-    <h1>Sweet and sour (serves 4)</h1>
+    <h1 class="title heading">Sweet and sour (serves 4)</h1>
 
     <!--image of recipe, description in alt-->
-    <img src="../img/sns.jpg" alt="delicious sweet and sour" />
+    <img id="img" src="../img/sns.jpg" alt="delicious sweet and sour" />
 
     <!--insert description of recipe on paragraph element-->
-    <p>
+    <p id="desc">
       A delicious homemade, crispy sweet and sour dish that rivals your
       favourite takeaway or store bought sauce
     </p>
 
-    <h2>Ingredients</h2>
-    <ul>
+    <h2 class="sub heading">Ingredients</h2>
+    <ul style="list-style: none">
       <li>flour (enough to coat chicken)</li>
       <li>3 Chicken breasts (diced into bitesize pieces)</li>
       <li>1 tablespoon vegetable oil</li>
@@ -34,13 +41,10 @@
       <li>2 tablespoons malt vinegar</li>
       <li>6 tablespoons brown sugar</li>
       <li>475g (tin) pinapple chunks in juice</li>
-      <li>2 bags of boil in the bag rice</li>
-      <li>soy sauce</li>
-      <li>sesame oil</li>
-      <li>2 eggs</li>
+      <li>rice</li>
     </ul>
-    <h2>Method</h2>
-    <ol>
+    <h2 class="sub heading">Method</h2>
+    <ol class="method">
       <li>
         coat the diced chicken in the flour and shallow fry or deep fry until
         golden then remove and place into a bowl lined with kitchen towel (best
@@ -61,29 +65,13 @@
         bubble stirring occasionally until thickened
       </li>
       <li>transfer chicken to the sauce and mix to coat</li>
-      <li>
-        time to start fried rice (if serving with boiled rice skip steps to
-        serve and enjoy). wisk eggs in a cup
+      
       </li>
-      <li>
-        heat up roughly 2 tablespoons of sesame oil in a wok or large frying pan
-      </li>
-      <li>
-        once oil is hot add the drained rice and mix well to coat the rice with
-        the oil
-      </li>
-      <li>add a dash of soy sauce and mix through again</li>
-      <li>
-        create a well in the center of the rice and add the eggs. when the eggs
-        start to solidify start mixing the rice into eggs
-      </li>
-      <li>
-        continuously stir and mix the eggs and rice until eggs are fully cooked
-      </li>
-      <li>add extra soy sauce for taste if neccessary</li>
-      <li>serve and enjoy</li>
+      <li>serve with rice and enjoy</li>
     </ol>
 
-    <a href="../index.html">Home</a>
+    <a id="home" href="../index.html">
+      <button id="home">Home</button>
+    </a>
   </body>
 </html>

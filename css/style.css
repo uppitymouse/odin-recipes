@@ -1,0 +1,16 @@
+body {text-align: center;}
+
+.title
+{
+    font-family: 'Rouge Script', cursive;
+        color: black;
+    background-color: yellowgreen;
+    font-size: 48px;
+    font-weight:100;
+}
+
+.recipe{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:28px;
+    
+}
